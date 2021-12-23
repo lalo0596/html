@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/tablas.css">
+        <title>Descargar mi CV</title>
+    </head>
+    <body>
+
+    <h1>tablas</h1>
+       <table>
+           <thead>
+               <!-- tr - crea una fila 
+                    th - crea una cabecera de tablla-->
+                <tr>
+                        <!--centra y pone las letra mas grande th-->
+                    <th>Cabecera</th>
+                    <th colspan="2">Cabecera </th>
+                    <!-- colspan - se extiended por la columna, crece hacia la derecha-->
+                    <!-- rowspan - se extiende por filas, crece hacia abajo-->
+                </tr>
+           </thead>
+           <!--sepra seccioneso las partes de la tablas cabecera, cuerpo y final -->
+           <tbody>
+               <tr><!--crea una celda-->
+                   <td>Hola</td>
+                   <td>Adiós</td>
+                   <td rowspan="3">saludos</td>
+               </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+           </tbody>
+           <tfoot>
+               <tr>
+                   <!-- td pone ala izquierda y la letra pone normal-->
+                   <td>Pie de tabla</td>
+                   <td>Pie de tabla </td>
+                   <td>pie de tabla</td>
+               </tr>
+           </tfoot>
+       </table>
+    </body>
+</html>

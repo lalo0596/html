@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/ejercicio-tabla.css">
+        <title>ejercicio-tabla</title>
+    </head>
+    <body>
+
+    <h1>Ejercicio de tablas</h1>
+       <table>
+           <thead>
+               <!-- tr - crea una fila 
+                    th - crea una cabecera de tablla-->
+                <tr>
+                        <!--centra y pone las letra mas grande th-->
+                    <th>Producto</th>
+                    <th >Precio <span style="color: red;" > individual</span> </th>
+                    <th >Cantidad </th>
+                    <th >Precio total </th>
+                   
+                </tr>
+           </thead>
+        
+           <tbody>
+               <tr><!--crea una celda-->
+                   <td>Hola Mundo</td>
+                   <td>Gratis</td>
+                   <td>5</td>
+                   <td>Gratis</td>
+               </tr>
+                <tr>
+                    <td>Perrito Feliz</td>
+                    <td class="rojo">$19.99</td>
+                    <td class="rojo">2</td>
+                    <td>$39.98</td>
+                </tr>
+                <tr>
+                    <td>Perrito <samp >Feliz</samp> muy feliz</td>
+                    <td>$29.99</td>
+                    <td>3</td>
+                    <td>$89.9<samp class="amarrillo">7</samp></td>
+                </tr>
+           </tbody>
+           <tfoot>
+               <tr>
+                   <td class="black"></td>
+                   <td class="verde">Total $49.99</td>
+                   <td class="verde">10 </td>
+                   <td class="verde">$129.95</td>
+               </tr>
+           </tfoot>
+       </table>
+    </body>
+</html>
