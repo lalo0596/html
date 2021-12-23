@@ -1,0 +1,34 @@
+.encabezado {
+    /* comentarios en css */
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /*  tamaño en px de letra o cm, in,
+    medidas comunes : px, %, rem, em*/
+    /* para letra cursiva */
+    /* color de fuente  */
+    /* es para el color de fondo  */
+    /* nos permmite alinear texto */
+    /* text-transform es para mayusculas y ninusculas  */
+}
+body {
+background-color: rgb(157, 184, 241);    
+}
+.ora {
+    color: orange;
+
+}
+.cua {
+    color: rgb(27, 226, 27);
+    background-color: rgb(248, 248, 248);
+}
+
+
+.firma {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-align: right;
+}
