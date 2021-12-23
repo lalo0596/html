@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(13, 99, 13);
+}
+
+.rojo {
+  
+    border: 5px solid rgba(184, 19, 19, 0.849);
+    background-color: rgb(168, 77, 77);
+    padding: 15px;
+    margin-left: 450px;
+    
+   
+}
+.marron { 
+    
+    border: 5px solid rgb(184, 130, 14);
+    background-color: chocolate;
+    padding: 15px;
+    margin-right: 600px;
+}
+
+.azul {
+    
+    border: 5px solid mediumblue;
+    background-color: rgb(113, 113, 226);
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.blanco{
+    border: 5px solid black;
+    font-size: 15px;
+    background-color: white;
+    padding: 15px;
+    margin: 80px;
+    
+    
+    
+}

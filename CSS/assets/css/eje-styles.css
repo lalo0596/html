@@ -1,0 +1,35 @@
+.encabezado {
+    /* comentarios en css */
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /*  tamaño en px de letra o cm, in,
+    medidas comunes : px, %, rem, em*/
+    /* para letra cursiva */
+    /* color de fuente  */
+    /* es para el color de fondo  */
+    /* nos permmite alinear texto */
+    /* text-transform es para mayusculas y ninusculas  */
+}
+body {
+background-color: #188d06;    
+}
+.cursiva {
+    color: rgb(252, 252, 252);
+    font-style: italic;
+    
+}
+
+.crema {
+    color: rgb(238, 238, 185);
+}
+   
+.amarillo {
+    color: orange;
+
+}
+.rojo {
+    color: rgb(180, 12, 12);
+}
+

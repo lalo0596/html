@@ -1,0 +1,36 @@
+/*  */
+
+.encabezado {
+    /* comentarios en css */
+    font-size: 72px;
+    font-style: italic;
+    color: cadetblue;
+    background-color: rgb(42, 82, 156);
+    text-align: center;
+    text-transform: lowercase;
+    /*  tamaño en px de letra o cm, in,
+    medidas comunes : px, %, rem, em*/
+    /* para letra cursiva */
+    /* color de fuente  */
+    /* es para el color de fondo  */
+    /* nos permmite alinear texto */
+    /* text-transform es para mayusculas y ninusculas  */
+}
+body {
+background-color: #ebcece;    
+}
+#texto {
+    color: cornflowerblue;
+    background-color: darkgreen;
+}
+
+p {
+    color: rgb(196, 196, 28);
+    background-color: rgb(95, 35, 13);
+}
+p {
+    color: rgb(8, 8, 6);
+    background-color: coral;
+
+}
+
